@@ -16,7 +16,7 @@ def run():
     return api.df
 
 
-if __name__ == 'main':
+if __name__ == '__main__':
     run()
     api.df.to_csv('current_farfetch_listings' + date + '.csv')
 
